@@ -26,4 +26,3 @@ make install PREFIX=%{i}
 
 %post
 %{relocateConfig}mp2setup.sh
-%{relocateConfig}cmake/millepedeIIConfig.cmake
